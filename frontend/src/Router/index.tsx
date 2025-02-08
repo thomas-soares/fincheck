@@ -4,6 +4,9 @@ function Layout() {
     return (
         <div>
             <div className="w-full bg-red-500 h-10"></div>
+            <div>
+                <nav className="w-[300px] bg-red-600"></nav>
+            </div>
         </div>
     )
 }
