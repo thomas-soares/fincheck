@@ -11,6 +11,10 @@ function Layout() {
     )
 }
 
+function AuthGuard() {
+    return <Outlet />
+}
+
 export function Router() {
     return (
         <BrowserRouter>
