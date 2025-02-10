@@ -11,6 +11,10 @@ function Layout() {
     )
 }
 
+interface AuthGuardProps {
+    isPrivate: boolean
+}
+
 function AuthGuard() {
     return <Outlet />
 }
