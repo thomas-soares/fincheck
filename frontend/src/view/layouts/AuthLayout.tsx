@@ -9,7 +9,7 @@ export function AuthLayout() {
                 <div className='mt-16 bg-red-500 w-full'><h1>Pagina...</h1></div>
             </div>
             <div>
-                <img src={illustration} alt="" />
+                <img src={illustration} className="object-cover w-full h-full" alt="" />
             </div>
         </div>
     )
