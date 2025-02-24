@@ -11,7 +11,7 @@ export function AuthLayout() {
                     <Outlet />
                 </div>
             </div>
-            <div>
+            <div className='w-1/2 h-full justify-center'>
                 <img src={illustration} className="object-cover w-full h-full" alt="" />
             </div>
         </div>
