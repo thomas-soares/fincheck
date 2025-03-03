@@ -12,7 +12,7 @@ export function AuthLayout() {
                 </div>
             </div>
             <div className='w-1/2 h-full justify-center'>
-                <img src={illustration} className="object-cover w-full h-full max-w-[656px] max-h-[960px]" alt="" />
+                <img src={illustration} className="object-cover w-full h-full max-w-[656px] max-h-[960px] select-none rounded-[32px]" alt="" />
             </div>
         </div>
     )
