@@ -14,7 +14,6 @@ export function AuthLayout() {
             <div className='w-1/2 h-full justify-center'>
                 <img src={illustration} className="object-cover w-full h-full max-w-[656px] max-h-[960px] select-none rounded-[32px]" alt="" />
             </div>
-            <p className='text-gray-700'>Gerencie suas finanças</p>
         </div>
     )
 }
