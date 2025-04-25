@@ -1,4 +1,4 @@
-export function Input({ placeholder, name, ...props }: InputProps) {
+export function Input = forwardRef<HTMLInputElement, InputProps>({ placeholder, name, ...props }: InputProps) {
     return (
         <div className="relative">
             <input {...props} name={name} id={inputId} className="bg-white w-full rounded-lg border border-gray-500 px-3 h-[52px] text-gray-800" />
