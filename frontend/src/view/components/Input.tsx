@@ -1,3 +1,7 @@
+interface InputProps extends ComponentProps<'input'> {
+    name:string
+}
+
 export function Input = forwardRef<HTMLInputElement, InputProps>({ placeholder, name, ...props }: InputProps) {
     return (
         <div className="relative">
