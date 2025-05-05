@@ -5,3 +5,4 @@ const httpClient = axios.create({
 })
 
 httpClient.post('http://localhost:3000/auth/signin')
+httpClient.get('http://localhost:3000/')
