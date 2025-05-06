@@ -1,4 +1,6 @@
 export function Register() {
+  const { errors, handleSubmit, register } = useRegisterController()
+
     return (
         <>
         <header className="flex flex-col items-center gap-4">
