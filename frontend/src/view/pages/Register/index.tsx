@@ -8,6 +8,10 @@ export function Register() {
           Crie sua conta
         </h1>
         </header>
+
+        <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
+          <Input placeholder="Nome" name="name" />
+        </form>
         </>
     )
 }
