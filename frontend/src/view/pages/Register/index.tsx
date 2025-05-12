@@ -10,7 +10,7 @@ export function Register() {
         </header>
 
         <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
-          <Input placeholder="Nome" {...register('name')} />
+          <Input placeholder="Nome" error={errors.name?.message} {...register('name')} />
         </form>
         </>
     )
