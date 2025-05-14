@@ -11,7 +11,9 @@ export function Register() {
 
         <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
           <Input placeholder="Nome" error={errors.name?.message} {...register('name')} />
-          <Input placeholder="E-mail" error={errors.email?.message} {...register('name')} />
+          <Input placeholder="E-mail" error={errors.email?.message} {...register('email')} />
+          <Input type="password" placeholder="Senha" error={errors.email?.message} {...register('email')} />
+
         </form>
         </>
     )
