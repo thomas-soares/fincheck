@@ -13,6 +13,7 @@ export function Register() {
           <Input placeholder="Nome" error={errors.name?.message} {...register('name')} />
           <Input placeholder="E-mail" error={errors.email?.message} {...register('email')} />
           <Input type="password" placeholder="Senha" error={errors.email?.message} {...register('email')} />
+          <Button>Criar conta</Button>
 
         </form>
         </>
