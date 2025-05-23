@@ -6,3 +6,11 @@ const schema = z.object({
 })
 
 type FormData = z.infer<typeof schema>;
+
+const handleSubmit = hookFormSubmit(async (data) => {
+    try {
+        await mutateAsync(data);
+    } catch {
+        toast.error('Credenciais')
+    }
+})
