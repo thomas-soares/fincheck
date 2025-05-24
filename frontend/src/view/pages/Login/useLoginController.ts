@@ -11,6 +11,8 @@ const handleSubmit = hookFormSubmit(async (data) => {
     try {
         await mutateAsync(data);
     } catch {
-        toast.error('Credenciais')
+        toast.error('Credenciais inválidas!')
     }
 })
+
+return { handleSubmit, register, errors }
