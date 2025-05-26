@@ -7,6 +7,12 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
+const { mutateAsync, isLoading } = useMutation({
+    mutationFn: async (data: SigninParams) => {
+        return authService.signin(data);
+    }
+})
+
 const handleSubmit = hookFormSubmit(async (data) => {
     try {
         await mutateAsync(data);
