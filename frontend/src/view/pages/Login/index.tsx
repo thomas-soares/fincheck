@@ -7,7 +7,7 @@ export function Login() {
                     <span>Novo por aqui?</span>
                 </p>
             </header>
-            <form onSubmit={handleSubmit} className="mt-[60px]">
+            <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
 
             </form>
         </div>
