@@ -8,7 +8,7 @@ export function Login() {
                 </p>
             </header>
             <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
-
+<Input type="email" />
             </form>
         </div>
     )
