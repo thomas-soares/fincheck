@@ -1,4 +1,6 @@
 export function Login() {
+    const {handleSubmit, register, errors, isLoading } = useLoginController();
+
     return (
         <div>
             <header className="flex flex-col items-center gap-4">
