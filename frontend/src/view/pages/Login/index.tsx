@@ -10,7 +10,7 @@ export function Login() {
                 </p>
             </header>
             <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
-<Input type="email" />
+<Input type="email" placeholder="E-mail"  />
             </form>
         </div>
     )
