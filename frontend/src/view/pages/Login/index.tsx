@@ -12,6 +12,9 @@ export function Login() {
             <form onSubmit={handleSubmit} className="mt-[60px] flex flex-col gap-4">
 <Input type="email" placeholder="E-mail"  />
 <Input type="password" placeholder="Senha"  />
+<Button type="submit" className="mt-2">
+    Entrar
+</Button>
             </form>
         </div>
     )
