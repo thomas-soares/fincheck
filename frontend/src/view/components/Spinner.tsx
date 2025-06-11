@@ -1,3 +1,3 @@
-export function Spinner {
-    
+export function Spinner({ className }: SpinnerProps) {
+
 }
